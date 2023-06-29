@@ -1,13 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Login from './src/screens/Auth/Login'
 
-const App = () => {
+const AppNavigation = () => {
   return (
-    <Login />
+    <View>
+      <Text>AppNavigation</Text>
+    </View>
   )
 }
 
-export default App
+export default AppNavigation
 
 const styles = StyleSheet.create({})
